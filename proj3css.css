@@ -1,0 +1,579 @@
+.container {
+  width: 100vw;
+  height: 800px;
+  /* background-image: url("joshua-earle-ICE__bo2Vws-unsplash.jpg"); */
+  background-size: cover;
+  background-position: center;
+  /* margin-top: 0.3%; */
+}
+
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+
+/* body{
+  height: 2900px;
+} */
+.nav {
+  position: static;
+  /* height: 100px;
+    width: 100vw; */
+  /* background-color: rgb(233, 229, 233); */
+  display: flex;
+  border: solid 1px black;
+  justify-content: end;
+  
+  justify-content: space-around;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(10%);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav ul {
+  margin-right: 40px;
+  list-style: none;
+  /* background-color: rgb(255, 25, 25); */
+  display: flex;
+  justify-content: center;
+
+  /* padding-right: 7%; */
+  align-items: center;
+}
+
+.nav li {
+  list-style: none;
+  /* margin-right: 20px; */
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  /* list-style: none; */
+  font-size: 25px;
+  display: inline-block;
+  justify-content: center;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+}
+
+.nav li:hover {
+  transform: scaleX(1.2);
+}
+
+.nav a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.txtimg {
+  -webkit-text-fill-color: rgb(186, 217, 236);
+  margin-left: 10%;
+  position: absolute;
+  text-decoration-skip: objects;
+  top: 85%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-rendering: optimizeLegibility;
+  text-shadow: 2px 2px #030014;
+
+}
+
+#search {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* position: relative; */
+  left: 50%;
+  border-radius: 12px;
+  border: none;
+  /* margin: 250px; */
+  bottom: 60px;
+  /* box-shadow: 1px 1px black; */
+
+}
+
+#search input {
+  width: 550px;
+  margin-left: 30%;
+  font-size: larger;
+  background: rgb(234, 230, 230);
+  box-shadow: 3px 3px black;
+  margin-top: 40%;
+}
+
+#search p {
+  -webkit-text-fill-color: rgb(197, 12, 248);
+  margin-left: 30%;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  font-style: oblique;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-rendering: optimizeLegibility;
+  text-shadow: 2px 2px #050004;
+
+}
+
+#search .slogan {
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  margin-left: 21%;
+  position: absolute;
+  top: 53%;
+  left: 22%;
+  font-size: larger;
+  text-shadow: none;
+  font-weight: bold;
+}
+  
+
+marquee {
+  height: 80px;
+  width: 100vw;
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  font-size: 400%;
+  font-style: oblique;
+  display: flex;
+  align-items: center;
+  background-color: rgb(115, 165, 196);
+  text-shadow: 2px 2px #786ccf;
+  font-weight: bold;
+
+
+
+}
+
+.item1 {
+  height: 700px;
+  width: 100vw;
+}
+
+.cardbox {
+  background-color: rgb(255, 255, 255);
+  height: 590px;
+  width: 100vw;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  /* display:grid; */
+  /* grid-column: auto; */
+  margin-top: 15px;
+  /* float: left; */
+  display:inline-flex;
+  /* row-gap: 70px; */
+  gap: 40px;
+  
+}
+
+.cardbox img {
+  /* max-height: 300px; */
+  height: 480px;
+  width: 450px;
+  /* gap: 20px; */
+  margin: 8px;
+  margin-left: 70px;
+  /* overflow: auto; */
+  /* flex-wrap: wrap; */
+  padding: 50px;
+}
+
+#card {
+ 
+  float: left;
+  /* width: 25%; */
+  padding: 0 10px;
+  /* position: relative; */
+  height: 400px;
+  width: 350px;
+  display: inline;
+  /* transition: all 0.3s ease-out; */
+  /* overflow: hidden;  */
+
+}
+
+#card img:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
+   overflow: hidden;  
+
+  
+  /* border: solid 4px black; */
+}
+
+#card img {
+  height: 500px;
+  width: 450px;
+  /* gap: 20px; */
+  margin: 8px;
+  margin-left: 70px;
+  padding: 50px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  /* transition: 0.5s ease; */
+
+  
+  
+}
+
+.nav .logo {
+  font-size: 40px;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  margin-right: 35%;
+  color: black;
+  margin-top: 1.7%;
+  font-weight: bold;
+  margin-left: 12px;
+  font-family: monospace;
+}
+
+.container .videobg {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  /* margin-bottom: 10%; */
+  /* height: 100vh; */
+  width: 100vw;
+}
+
+@media (min-aspect-ratio=16/9) {
+  .videobg {
+    width: 100%;
+    height: auto;
+
+  }
+}
+
+@media (max-aspect-ratio=16/9) {
+  .videobg {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.nav .login {
+  font-size: 35px;
+  /* color: white; */
+  text-align: center;
+  display: flex;
+  margin-left: 20%;
+  -webkit-text-fill-color: rgb(3, 42, 156);
+  text-shadow: 1px 1px #000000;
+}
+
+.nav .signup {
+  font-size: 35px;
+  -webkit-text-fill-color: rgb(3, 42, 156);
+  font-size: xx-large;
+  /* color: white; */
+  text-align: center;
+  display: flex;
+  float: right;
+  text-shadow: 1px 1px #17026a;
+
+}
+
+.item1 .item2 {
+  background-color: rgb(255, 255, 255);
+  height: 120px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.item2 h2 {
+  font-size: 60px;
+  -webkit-text-fill-color: #3308dd;
+  padding-top: 2%;
+  font-weight: bold;
+  font-family: 'Times New Roman';
+}
+
+.item2 p {
+  font-weight: bold;
+  -webkit-text-fill-color: #635e77;
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+  font-size: 20px;
+  position: absolute;
+  left: 42%
+}
+
+#card p {
+  font-size: x-large;
+  /* font-weight: 700px; */
+  display: flex;
+  /* margin-top: 5px; */
+  margin-left: 210px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.section {
+  height: 500px;
+  width: 100vw;
+  /* background-color: aqua; */
+  background-image: linear-gradient(rgba(33, 43, 52, 0.5), rgba(31, 38, 44, 0.5)), url(pexels-asad-photo-maldives-1266831.jpg);
+  ;
+
+  background-size: cover;
+  /* backface-visibility: visible; */
+  background-position: center;
+  transition: .5s ease-in-out;
+  /* margin-bottom: 3%; */
+
+}
+
+.section p {
+  font-style: italic;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  /* font-weight: 500; */
+  font-family: 'Times New Roman';
+  -webkit-text-fill-color: rgb(253, 253, 253);
+  text-shadow: 1px 1px black;
+  margin-top: 180px;
+  left: 8%;
+  right: 70%
+}
+
+.section button {
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: absolute;
+  left: 15%;
+  right: 70%;
+  margin-top: 410px;
+  background-color: #302dd7;
+  -webkit-text-fill-color: aliceblue;
+  font-size: 18px;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+.section h1 {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-weight: 500;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  -webkit-text-fill-color: rgb(253, 253, 253);
+  text-shadow: 2px 2px #000000;
+  margin-top: 20px;
+  left: 25%;
+  font-family: 'Times New Roman';
+
+}
+
+.fotter {
+  height: 400px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.938);
+  -webkit-text-fill-color: antiquewhite;
+  padding: 0;
+}
+
+.fotter h3 {
+  font-size: 35px;
+  padding: 2%;
+  display: inline-block;
+  font-family: monospace;
+}
+
+.fotter ul {
+  list-style: none;
+  padding: 60px;
+}
+
+.fotter li a {
+  font-size: 25px;
+  text-decoration: none;
+  -webkit-text-fill-color: rgb(215, 97, 203);
+  text-shadow: .5px 0.5px #dbd2d2;
+}
+
+.fotter p {
+  color: rgb(215, 97, 203);
+  display: inline-flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: center;
+  align-items: center;
+  text-decoration: none; */
+  position: relative;
+  left: 40%;
+  bottom: 50%;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  color: #e90f0f;
+  font-size: 30px;
+  text-indent: 50px;
+}
+
+.fotter span {
+  font-size: 20px;
+  -webkit-text-fill-color: rgb(39, 142, 231);
+  position: absolute;
+  /* margin-top: 8; */
+  left: 40%;
+  margin-bottom: 100px;
+}
+
+.fotter .ct {
+  /* margin-bottom: 440px; */
+  position: absolute;
+  font-size: 20px;
+  left: 34%;
+  top: 490%;
+  -webkit-text-fill-color: beige
+}
+
+.content {
+  height: 600px;
+  width: 100vw;
+  background-color: rgb(240, 236, 236);
+  transition: all 0.2s  ease-in;
+
+}
+
+.content h4 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.content .box {
+  position: relative;
+  top: 80px;
+  left: 130px;
+  height: 450px;
+  width: 400px;
+  border: solid none black;
+  /* padding: 30px; */
+  /* box-shadow: 2px 2px 8px rgb(0, 0, 0); */
+
+}
+
+.content .box img {
+  height: 100%;
+  width: 150%;
+  box-shadow: 1px 1px 8px rgb(0, 0, 0);
+
+}
+
+.content p {
+  height: 400px;
+  width: 700px;
+  position: relative;
+  left: 52%;
+  bottom: 280px;
+  font-size: x-large;
+
+}
+
+.content .hikinghead {
+  text-align: center;
+  position: absolute;
+  -webkit-text-fill-color: rgb(4, 4, 4);
+  font-size: 70px;
+  top: 315%;
+  text-shadow: 1px 1px #e30505;
+}
+
+.content .view {
+  height: 70px;
+  width: 220px;
+  background-color: orangered;
+  position: absolute;
+  left: 65%;
+  top: 375%;
+  font-size: 40px;
+  border-radius: 10px;
+  /* -webkit-text-fill-color: aliceblue; */
+
+}
+
+.content .view a {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  text-shadow: 2px 2px #1f1616;
+}
+
+.map {
+  height: 400px;
+  width: 100vw;
+  background-color: #786ccf;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+}
+
+.map iframe {
+  height: 370px;
+  width: 600px;
+
+  position: absolute;
+  top: 397%;
+  right: 3%;
+  /* border: solid 2px black; */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.map .mapp {
+  font-size: 56px;
+  position: absolute;
+  left: 290px;
+  top: 400%;
+  /* transform: translate(-5%, -%); */
+  right: 20%;
+  text-shadow: 1px 1px white;
+}
+
+.map .para {
+  font-size: 25px;
+  -webkit-text-fill-color: rgb(212, 225, 238);
+  color: white;
+  position: relative;
+  top: 70%;
+  right: 23%;
+  height: 400px;
+  width: 700px;
+  margin-right: 350px;
+  margin-bottom: 140px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.searchbox{
+  height: 100px;
+  width: 800px;
+  border: solid 1px black;
+}
+#searchbox .searchpad{
+  height: 80px;
+  width: 650px;
+}
